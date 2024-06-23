@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura's Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Laura's Cafe</div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="carousel">
+            <div class="carousel-item active">
+                <img src="Caesar Salad.avif" alt="Cafe 1">
+            </div>
+            <div class="carousel-item">
+                <img src="Grilled Salmon.avif" alt="Cafe 2">
+            </div>
+            <div class="carousel-item">
+                <img src="Spaghetti Carbonara.avif" alt="Cafe 3">
+            </div>
+        </div>
+        <h1>Welcome to Laura's Cafe</h1>
+        <p>Experience the best food and hospitality in town</p>
+        <a href="#menu" class="btn">Explore Menu</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Laura's Cafe</h2>
+        <p>Laura's Cafe is a charming spot nestled in the heart of the city, offering a delightful menu and cozy ambiance. Our mission is to provide an exceptional dining experience with our carefully crafted dishes and warm hospitality. Come and enjoy a relaxing time with us!</p>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Highlighted Menu Items</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="Spaghetti Carbonara.avif" alt="Spaghetti Carbonara">
+                <a href="#">Spaghetti Carbonara</a>
+                <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper. - 850 KES</p>
+            </div>
+            <div class="menu-item">
+                <img src="Grilled Salmon.avif" alt="Grilled Salmon">
+                <a href="#">Grilled Salmon</a>
+                <p>Perfectly grilled salmon fillet served with lemon butter sauce. - 1,500 KES</p>
+            </div>
+            <div class="menu-item">
+                <img src="Cheesecake.avif" alt="Cheesecake">
+                <a href="#">Cheesecake</a>
+                <p>A creamy and rich dessert with a graham cracker crust and a smooth cheese filling. - 600 KES</p>
+            </div>
+            <div class="menu-item">
+                <img src="Caesar Salad.avif" alt="Caesar Salad">
+                <a href="#">Caesar Salad</a>
+                <p>Crisp romaine lettuce tossed with Caesar dressing, croutons, and Parmesan cheese. - 450 KES</p>
+            </div>
+            <div class="menu-item">
+                <img src="Margherita Pizza.avif" alt="Margherita Pizza">
+                <a href="#">Margherita Pizza</a>
+                <p>Classic pizza topped with fresh tomatoes, mozzarella cheese, and basil. - 900 KES</p>
+            </div>
+            <div class="menu-item">
+                <img src="Chicken Alfredo.avif" alt="Chicken Alfredo">
+                <a href="#">Chicken Alfredo</a>
+                <p>Creamy pasta dish made with grilled chicken and Alfredo sauce. - 950 KES</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Laura's Cafe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
